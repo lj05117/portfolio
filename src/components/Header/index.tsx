@@ -5,7 +5,6 @@ const Header = () => {
     <HeaderDiv>
       <HeaderContentDiv>
         <HeaderContent href="/">Home</HeaderContent>
-        <HeaderContent href="/experience">Experience</HeaderContent>
         <HeaderContent href="/project">Project</HeaderContent>
         <HeaderContent href="/image">Image</HeaderContent>
       </HeaderContentDiv>
