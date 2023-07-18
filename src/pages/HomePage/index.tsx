@@ -7,6 +7,7 @@ import {
 } from "./styles";
 import ProfilImage from "../../assets/profil-Image.jpg";
 import Button from "../../components/Button";
+import { ButtonContainer } from "../../components/Button/styles";
 
 const HomePage = () => {
   return (
@@ -20,8 +21,11 @@ const HomePage = () => {
           어떤 팀이든 잘 스며들어 팀과의 협업에 유연하게 적응할 수 있습니다.
         </IntroContent>
         <IntroContent>새로운 개발 기술에 대한 빠른 적응력을 가지고 있습니다.</IntroContent>
-
-        <Button />
+        <ButtonContainer>
+          <Button buttonName="git"></Button>
+          <Button buttonName="velog"></Button>
+          <Button buttonName="Email"></Button>
+        </ButtonContainer>
       </IntroContentContainer>
     </IntroContainer>
   );
