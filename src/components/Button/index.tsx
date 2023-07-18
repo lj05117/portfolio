@@ -1,4 +1,5 @@
-import { ButtonStyle } from "./styles";
+import { ButtonLogoStyle, ButtonStyle } from "./styles";
+import gitLogo from "../../assets/github-mark-white.svg";
 
 const Button = ({ buttonName }: { buttonName: string }) => {
   const goLink = (name: string) => {
@@ -23,6 +24,7 @@ const Button = ({ buttonName }: { buttonName: string }) => {
   if (buttonName.slice(0, 3) === "git") {
     return (
       <ButtonStyle className={"git"} onClick={() => goLink(buttonName)}>
+        <ButtonLogoStyle src={gitLogo}></ButtonLogoStyle>
         github
       </ButtonStyle>
     );

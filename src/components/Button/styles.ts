@@ -1,10 +1,15 @@
 import { styled } from "styled-components";
 
 export const ButtonContainer = styled.div`
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
   margin: 50px 50px 50px 0px;
+`;
+
+export const ButtonLogoStyle = styled.img`
+  height: 15px;
+  margin-right: 5px;
 `;
 
 export const ButtonStyle = styled.button`
