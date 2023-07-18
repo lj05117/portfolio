@@ -6,7 +6,8 @@ const Button = ({ buttonName }: { buttonName: string }) => {
       ? (window.location.href = "https://github.com/lj05117")
       : name === "velog"
       ? (window.location.href = "https://velog.io/@lj05117")
-      : (window.location.href = "mailto:lj05117@naver.com");
+      : (window.location.href =
+          "https://shore-roadway-33f.notion.site/a05ef24e1eff4e0d93e7fff5889e124f");
   };
 
   if (buttonName === "git") {
@@ -23,8 +24,8 @@ const Button = ({ buttonName }: { buttonName: string }) => {
     );
   } else {
     return (
-      <ButtonStyle className={"email"} title={"lj05117@naver.com"}>
-        Email
+      <ButtonStyle className={"notion"} onClick={() => goLink("notion")}>
+        portfolio - notion
       </ButtonStyle>
     );
   }

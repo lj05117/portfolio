@@ -24,7 +24,7 @@ const HomePage = () => {
         <ButtonContainer>
           <Button buttonName="git"></Button>
           <Button buttonName="velog"></Button>
-          <Button buttonName="Email"></Button>
+          <Button buttonName="notion"></Button>
         </ButtonContainer>
       </IntroContentContainer>
     </IntroContainer>

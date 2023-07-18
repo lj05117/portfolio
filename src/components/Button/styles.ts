@@ -26,7 +26,7 @@ export const ButtonStyle = styled.button`
     background-color: #20c393;
   }
 
-  &.email {
+  &.notion {
     color: black;
   }
 `;
